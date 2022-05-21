@@ -7,9 +7,10 @@ Website: dfhcommunity.com
 
 License: Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-Contact me for commercial use :)
+For commercial use :),feel free to contact with us:
+irwing@dfhcommunity.com
 
 Author : DFH Community 
 
 
-Collaborators:Irwing Tello,Carlos Huerta, Franco De Leon 
+Collaborators: Irwing Tello,Carlos Huerta, Franco De Leon , Luis Garza
