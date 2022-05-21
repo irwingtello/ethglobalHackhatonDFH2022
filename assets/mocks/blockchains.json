@@ -14,13 +14,13 @@
     {
         "chainId": "0x89",
         "currentSymbol": "Polygon",
-        "blockExplorerUrl": "https://www.bscscan.com/",
+        "blockExplorerUrl": "https://polygonscan.com/",
         "wrapped": "12ejpo13j"
     },
     {
         "chainId": "0xa86a",
         "currentSymbol": "Avalanche",
-        "blockExplorerUrl": "https://www.bscscan.com/",
+        "blockExplorerUrl": "https://explorer-xp.avax.network/",
         "wrapped": "12ejpo13j"
     },
     {
