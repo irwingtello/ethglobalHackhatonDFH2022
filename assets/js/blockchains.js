@@ -1,4 +1,3 @@
-
 fetch('./assets/mocks/blockchains.json')
   .then(response => response.json())
   .then(data => {
