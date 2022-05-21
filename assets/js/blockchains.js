@@ -43,21 +43,23 @@ fetch('./assets/mocks/blockchains.json')
         nfts.forEach((nft) => {
           const metadata = JSON.parse(nft.metadata);
           if (!metadata) return;
-          Object.keys(metadata).map(key => {
-            subListElements+=`
-              <div class="col-md-4" style="min-height: 600px;">
-                <h1 class="truncated">
-                  <span title="${nft.token_address}">${nft.token_address}</span>
-                </h1>
-                ${key.includes("image")
-                  ? `<img style="max-width: 100%;" src="${metadata[key]}" />`
-                  : `<p class="truncated">
-                      <span title="${metadata[key]}">${key}: ${metadata[key]}</span>
-                    </p>`
-                }
-              </div>
+          let elem = `
+            <div class="col-md-4" style="min-height: 600px;">
+              <h1 class="truncated">
+                <span title="${nft.token_id}">${nft.token_id}</span>
+              </h1>
+              <h2 class="truncated">
+                <span title="${nft.token_address}">${nft.token_address}</span>
+              </h2>
+              <img style="max-width: 100%;" src="${metadata.image}" />
             `;
+          Object.keys(metadata).map(key => {
+            elem += `
+              <p style="margin: 0;" class="truncated">
+                <span title="${metadata[key]}">${key}: ${metadata[key]}</span>
+              </p>`
             });
+            subListElements += elem + '</div>'
         });
 
         ulRef.innerHTML = subListElements;
