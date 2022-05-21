@@ -31,13 +31,19 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h2>Dashboard</h2>
-				<input type="text" placeholder="Address">
-				<select id="blockchains-list"></select>
-        <div class="row">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="nfts-list"></div>
-        </div><!-- /.row -->
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Address">
+        </div>
+        <div class="form-group">
+				  <select class="form-control" id="blockchains-list"></select>
+        </div>
+        <div class="form-group">
+          <button id="apply-btn" class="btn btn-primary">Apply</button>
+        </div>
 			</div>
 		</div>
+    <div class="row" id="nfts-list">
+    </div>
 	</div>
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
