@@ -13,4 +13,4 @@ irwing@dfhcommunity.com
 Author : DFH Community 
 
 
-Collaborators: Irwing Tello,Carlos Huerta, Franco De Leon , Luis Garza
+Collaborators: Irwing Tello,Carlos Huerta, Franco De Leon
