@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Template design for UD Template Builder.">
+    <meta name="author" content="inspireme6">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>Compact, personal portfolio theme</title>
+
+    <!-- Loading CSS Styles -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet">
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 16px;
+      }
+      </style>
+  </head>
+  <body>
+    <div>
+      <button>Log in with UD</button>
+    </div>
+    <div>
+      <!-- <form action="/login" method="POST"> -->
+        <input type="text" name="username_hint" id="domain-input" placeholder="Enter your domain">
+        <button type="button" onclick="login()">Login</button>
+      <!-- </form> -->
+    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Dashboard</h2>
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Address">
+        </div>
+        <div class="form-group">
+				  <select class="form-control" id="blockchains-list"></select>
+        </div>
+        <div class="form-group">
+          <button id="apply-btn" class="btn btn-primary">Apply</button>
+            <a class="btn btn-primary" href="./site/index.html">Return to home</a>
+          </div>
+        </div>
+			</div>
+		</div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="row" id="countItem">
+        </div>
+        <div class="row" id="nfts-list">
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/smoothscroll.js"></script>
+	<script src="./assets/js/menu.js"></script>
+	<script src="./assets/js/blockchains.js"></script>
+</body>
+</html>
